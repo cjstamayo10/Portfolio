@@ -155,6 +155,16 @@
   width: 100%;
 }
 
+.alert{
+  margin:0 !important;
+  padding: 0 !important;
+  margin-bottom:30px !important;
+}
+
+.alert-dismissible{
+  padding-right: 0 !important;
+}
+
 @media only screen and (min-width:992px) and (max-width:1199px){
   .contact-about-area{
     height: auto;
