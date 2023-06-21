@@ -1,0 +1,20 @@
+.section-separator{
+    position: relative;
+}
+.rn-section-gap{
+    padding: 100px 0;
+}
+.section-separator::after{
+    position: absolute;
+    max-width: 1270px;
+    height: 1px;
+    background: #121415;
+    content: "";
+    top:0;
+    left:0;
+    right:0;
+    margin: 0 auto;
+}
+.section-separator::after {
+    background: #dce1e4;
+}
