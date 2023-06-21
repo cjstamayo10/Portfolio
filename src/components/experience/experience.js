@@ -53,7 +53,7 @@ const Experience = () => {
               </div>
               <div className="right-side">
                 <div className="experience-footer">
-                  <a className="contact-btn" href="#">
+                  <a className="contact-btn" href="#contact">
                     Contact Me
                   </a>
                 </div>

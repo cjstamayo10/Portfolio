@@ -1,6 +1,17 @@
 import "./hero.css";
 
 const Hero = () => {
+
+  const downloadPDF = () => {
+    // Replace 'path/to/your/file.pdf' with the actual file path or URL of the PDF
+    const fileURL = "./assets/cv/Christian-Tamayo-CV.pdf";
+    const link = document.createElement("a");
+    link.href = fileURL;
+    link.download = "Christian-Tamayo-CV.pdf";
+    link.target = "_blank";
+    link.click();
+  };
+
   return (
     <div
       id="hero"
@@ -62,12 +73,14 @@ const Hero = () => {
                     </div>
                     <div className="btn-container">
                       <div className="btn-wrapper d-flex">
-                        <button className="btn download text-uppercase">
+                        <button className="btn download text-uppercase" onClick={downloadPDF}>
                           Download CV
                         </button>
-                        <button className="btn contact text-uppercase">
-                          Contact Me
-                        </button>
+                        <a href="#contact">
+                          <button className="btn contact text-uppercase">
+                            Contact Me
+                          </button>
+                        </a>
                       </div>
                     </div>
                   </div>
