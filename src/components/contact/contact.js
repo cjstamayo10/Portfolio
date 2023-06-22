@@ -13,6 +13,12 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    if (!email || !name || !contact || !subject || !message) {
+      setStatusMessage("Please fill in all fields.");
+      return;
+    }
+
     emailjs
       .send(
         "service_6h0iwi8",
@@ -29,16 +35,16 @@ const Contact = () => {
       )
       .then(() => {
         setStatusMessage("Email sent successfully!");
+        // Reset form fields
+        setName("");
+        setContact("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
       })
       .catch(() => {
         setStatusMessage("Error sending email. Please try again.");
       });
-
-    setName("");
-    setContact("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
   };
 
   const handleKeyDown = (e) => {
@@ -163,6 +169,7 @@ const Contact = () => {
                         type="text"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
+                        required
                       />
                     </div>
                   </div>
@@ -177,6 +184,7 @@ const Contact = () => {
                         onKeyDown={handleKeyDown}
                         value={contact}
                         onChange={(e) => setContact(e.target.value)}
+                        required
                       />
                     </div>
                   </div>
@@ -190,6 +198,7 @@ const Contact = () => {
                         type="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+                        required
                       />
                     </div>
                   </div>
@@ -203,6 +212,7 @@ const Contact = () => {
                         type="text"
                         value={subject}
                         onChange={(e) => setSubject(e.target.value)}
+                        required
                       />
                     </div>
                   </div>
@@ -217,6 +227,7 @@ const Contact = () => {
                         rows="10"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
+                        required
                       />
                     </div>
                   </div>
@@ -227,6 +238,7 @@ const Contact = () => {
                       id="submit"
                       className="contact-btn"
                       onClick={sendEmail}
+                      required
                     >
                       <span className="text me-2">SEND MESSAGE</span>
                       <span className="icon">

@@ -724,7 +724,7 @@ const Projects = () => {
                   <div className="text-content">
                     <div className="project-header">
                       <span className="project-title">My Project</span>
-                      <span className="project-name">Weather App</span>
+                      <span className="project-name">Login & Signup Form</span>
                     </div>
                     <div className="project-body mb--30">
                       <span>
@@ -797,7 +797,11 @@ const Projects = () => {
             <div className="rn-project">
               <div className="inner-content">
                 <div className="thumbnail">
-                  <a href="#">
+                  <a
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portfolioModal"
+                  >
                     <img
                       src="./assets/img/projects/project-01.jpg"
                       alt="Project 01 Image"
@@ -891,7 +895,11 @@ const Projects = () => {
             <div className="rn-project">
               <div className="inner-content">
                 <div className="thumbnail">
-                  <a href="#">
+                  <a
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#capstoneModal"
+                  >
                     <img
                       src="./assets/img/projects/project-02.jpg"
                       alt="Project 01 Image"
@@ -916,9 +924,7 @@ const Projects = () => {
                     As a requirement for my capstone subject, my project for
                     Malabon City showcases my knowledge in PHP, MySQL, and
                     Bootstrap, resulting in a solid and efficient web
-                    application. I was able to demonstrate my abilities to
-                    contribute to real-world projects effectively by
-                    successfully integrating these technologies.
+                    application.
                   </div>
                   <div className="experience-subtitle my-3 d-flex flex-wrap align-items-center">
                     <span className="tech-stack me-2 mb-2">
@@ -999,7 +1005,11 @@ const Projects = () => {
             <div className="rn-project">
               <div className="inner-content">
                 <div className="thumbnail">
-                  <a href="#">
+                  <a
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#weatherModal"
+                  >
                     <img
                       src="./assets/img/projects/project-03.jpg"
                       alt="Project 01 Image"
@@ -1023,11 +1033,7 @@ const Projects = () => {
                   <div className="title">
                     My weather app, created using React JS and powered by the
                     OpenWeatherMap API, offers users with accurate and real-time
-                    weather data. The application, which has a simple and clear
-                    user interface, obtains and shows current weather
-                    conditions, predictions, and important data, increasing the
-                    user's experience and keeping them informed about the
-                    weather in their region.
+                    weather data.
                   </div>
                   <div className="experience-subtitle my-3 d-flex flex-wrap align-items-center">
                     <span className="tech-stack me-2 mb-2">
@@ -1099,7 +1105,11 @@ const Projects = () => {
             <div className="rn-project">
               <div className="inner-content">
                 <div className="thumbnail">
-                  <a href="#">
+                  <a
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#formModal"
+                  >
                     <img
                       src="./assets/img/projects/project-04.jpg"
                       alt="Project 01 Image"
@@ -1109,7 +1119,7 @@ const Projects = () => {
                 <div className="content">
                   <div className="category-info">
                     <div className="category-list">
-                      <span>Login & Sigup Form</span>
+                      <span>Responsive Form</span>
                     </div>
                     <div className="meta">
                       <span className="date">
@@ -1123,10 +1133,7 @@ const Projects = () => {
                   <div className="title">
                     My responsive login and sign-up form demonstrates my HTML
                     and CSS skills by creating a visually beautiful and
-                    user-friendly experience. The form's seamless responsiveness
-                    across several platforms offers an easy and safe user
-                    authentication procedure while sticking to current design
-                    standards.
+                    user-friendly experience.
                   </div>
                   <div className="experience-subtitle my-3 d-flex flex-wrap align-items-center">
                     <span className="tech-stack me-2 mb-2">

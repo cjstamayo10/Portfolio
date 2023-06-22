@@ -19,7 +19,6 @@
 .right-hero {
   transition: 0.5s;
 }
-.slider-info:hover,
 .right-hero:hover {
   transition: 1300ms cubic-bezier(0.17, 0.67, 0, 1.01);
   transform: translateY(-10px);
