@@ -224,4 +224,30 @@ img {
   .mt_sm--10 {
     margin-top: 10px !important;
   }
+
+}
+
+@media only screen and (max-width:766px){
+  .me-4{
+    margin-right:10px !important;
+  }
+  .link{
+    padding:0 !important;
+    display:flex;
+  }
+  .rn-project .inner-content .content .category-info .category-list span{
+    font-size: 22px;
+  }
+  .rn-project .inner-content .content .category-info .meta span{
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width:424px){
+  .rn-project .inner-content .content .category-info .category-list span{
+    font-size: 17px;
+  }
+  .rn-project .inner-content .content .category-info .meta span{
+    font-size: 13px;
+  }
 }
