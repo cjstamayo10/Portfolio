@@ -92,10 +92,6 @@ const Contact = () => {
                   I am available for work. Connect with me via and call in to my
                   account.
                 </span>
-                <span className="phone">
-                  <span className="title me-1">Phone:</span>
-                  <a href="tel:+639614607967">+639614607967</a>
-                </span>
                 <span className="mail">
                   <span className="title me-1">Email:</span>
                   <a href="mailto:tamayochristianj2@gmail.com">

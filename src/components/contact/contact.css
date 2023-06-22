@@ -50,12 +50,10 @@
   margin-bottom: 20px;
 }
 
-.contact-about-area .description .phone,
 .contact-about-area .description .mail {
   display: block;
 }
 
-.contact-about-area .description .phone a,
 .contact-about-area .description .mail a {
   transition: 700ms;
   position: relative;
@@ -64,7 +62,6 @@
   text-decoration: none;
 }
 
-.contact-about-area .description .phone a:hover,
 .contact-about-area .description .mail a:hover {
   color: #ce8262 !important;
   text-decoration: underline;
