@@ -95,8 +95,7 @@ const Contact = () => {
               </div>
               <div className="description">
                 <span className="available">
-                  I am available for work. Connect with me via and call in to my
-                  account.
+                  I am available for work. Connect with me via email.
                 </span>
                 <span className="mail">
                   <span className="title me-1">Email:</span>
@@ -115,7 +114,7 @@ const Contact = () => {
                   </a>
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/christian-jefferson-tamayo-30bb77262/"
+                    href="https://www.linkedin.com/in/christian-tamayo-30bb77262/"
                   >
                     <button className="contact-btn social-btn me-3">
                       <i className="fa-brands fa-linkedin-in"></i>
